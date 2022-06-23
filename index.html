@@ -10,6 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&family=Poppins:wght@300;400;500;700;800&display=swap"
         rel="stylesheet">
+    <link href="assets/owl/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/owl/owl.theme.default.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/rwd.css" rel="stylesheet">
 </head>
@@ -26,7 +28,7 @@
             <div id="menu">
                 <div class="nav-links">
                     <div class="nav-link dropdown">
-                        <a href="" class="nav-item">Aktualności</a>
+                        <div class="nav-item">Aktualności</div>
                         <div class="dropdown-content">
                             <a href="">Wpis 1</a>
                             <a href="">Wpis 2</a>
@@ -54,6 +56,110 @@
         </nav>
     </header>
     <main>
+        <section>
+            <div class="slider">
+                <div class="owl-carousel owl-theme">
+                    <div class="slider-bg item" style="background-image: url('assets/img/slider.jpg');">
+                        <div class="slider-content">
+                            <div class="slider-header">
+                                <div class="slider-separate"></div>
+                                <div class="slider-titles">
+                                    <h1 class="title-slider">
+                                        Podejście<br>
+                                        do Klienta
+                                    </h1>
+                                    <h1 class="subtitle-slider">to podstawa</h1>
+                                </div>
+                            </div>
+                            <div class="description-slider">Działamy szybko i sprawnie. Jesteśmy zawsze profesjonalni
+                                oraz
+                                zaangażowani na 100% w każdą prowadzoną przez nas sprawę.</div>
+                            <a href="" class="button-slider"><img src="assets/img/right-arrow.svg" alt=""
+                                    width="25">Dowiedz się więcej</a>
+                        </div>
+                    </div>
+                    <div class="slider-bg item" style="background-image: url('assets/img/slider.jpg');">
+                        <div class="slider-content">
+                            <div class="slider-header">
+                                <div class="slider-separate"></div>
+                                <div class="slider-titles">
+                                    <h1 class="title-slider">
+                                        Podejście 4<br>
+                                        do Klienta
+                                    </h1>
+                                    <h1 class="subtitle-slider">to podstawa</h1>
+                                </div>
+                            </div>
+                            <div class="description-slider">Działamy szybko i sprawnie. Jesteśmy zawsze profesjonalni
+                                oraz
+                                zaangażowani na 100% w każdą prowadzoną przez nas sprawę.</div>
+                            <a href="" class="button-slider"><img src="assets/img/right-arrow.svg" alt=""
+                                    width="25">Dowiedz się więcej</a>
+                        </div>
+                    </div>
+                    <div class="slider-bg item" style="background-image: url('assets/img/slider.jpg');">
+                        <div class="slider-content">
+                            <div class="slider-header">
+                                <div class="slider-separate"></div>
+                                <div class="slider-titles">
+                                    <h1 class="title-slider">
+                                        Podejście 3<br>
+                                        do Klienta
+                                    </h1>
+                                    <h1 class="subtitle-slider">to podstawa</h1>
+                                </div>
+                            </div>
+                            <div class="description-slider">Działamy szybko i sprawnie. Jesteśmy zawsze profesjonalni
+                                oraz
+                                zaangażowani na 100% w każdą prowadzoną przez nas sprawę.</div>
+                            <a href="" class="button-slider"><img src="assets/img/right-arrow.svg" alt=""
+                                    width="25">Dowiedz się więcej</a>
+                        </div>
+                    </div>
+                </div>
+                <div id='carousel-custom-dots' class="slider-dots">
+                    <button class="slider-dot" role="button"></button>
+                    <button class="slider-dot" role="button"></button>
+                    <button class="slider-dot" role="button"></button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container about-us">
+                <div class="about-us-left">
+                    <div class="section-header">
+                        <div class="section-separate"></div>
+                        <div class="section-titles">
+                            <h1 class="title-section">
+                                Kilka słów o nas
+                            </h1>
+                            <h1 class="subtitle-section">SPRAWDŹ KIM JESTEŚMY</h1>
+                        </div>
+                    </div>
+                    <div class="about-us-description">
+                        Tworzymy zespół profesjonalistów z wieloletnim doświadczeniem prawnym i finansowym.
+                        Specjalizujemy się w prawie restrukturyzacyjnym, upadłościowym i gospodarczym. Zdobyte przez
+                        nas doświadczenie, wiedza i otwartość w biznesie zapewniają wysoką skuteczność. Powierzając
+                        nam swoje sprawy, zyskujesz spokój i pełną opiekę prawną. Każdorazowo skupiamy się na tym,
+                        aby pozytywnie rozwiązać wszelkie problemy Naszych Klientów.
+                    </div>
+                    <a href="" class="button-primary"><img src="assets/img/right-arrow.svg" alt="" width="25">Więcej o
+                        nas</a>
+                </div>
+                <div class="about-us-right">
+                    <img src="assets/img/about-us.jpg" alt="" class="about-us-photo-mobile">
+                </div>
+            </div>
+            <div class="about-us-photo" style="background-image: url(assets/img/test.png);"></div>
+        </section>
+        <section class="bg-grey">
+
+        </section>
+
+
+
+
+
 
     </main>
     <footer style="background-image: url(assets/img/footer.jpg);">
@@ -135,6 +241,8 @@
             <div class="footer-copy">Copyright by Goszczyński Kancelaria Prawa Gospodarczego. 2022</div>
         </div>
     </footer>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/owl/owl.carousel.min.js"></script>
     <script src="assets/js/scripts.js"></script>
 </body>
 
