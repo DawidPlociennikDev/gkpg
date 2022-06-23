@@ -1,0 +1,147 @@
+@media (max-width: 1300px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-separate {
+        display: none;
+    }
+
+    .nav-contacts {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-content {
+        margin: 110px 30px 70px 30px;
+        gap: 20px
+    }
+
+    .footer-copyrights {
+        margin: 0px 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    nav {
+        padding: 25px 20px 20px 20px;
+    }
+
+    nav div {
+        width: 100%;
+    }
+
+    #menu {
+        display: block;
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        background-color: transparent;
+        transition: .5s all;
+    }
+
+    .show-menu {
+        background-color: #fff !important;
+        height: 340px !important;
+        opacity: 1 !important;
+        padding-top: 20px;
+    }
+
+    .logo {
+        display: flex;
+        margin: 0;
+        text-align: center;
+    }
+
+    .hamburger-btn {
+        display: block;
+        background-color: transparent;
+        border: 0;
+        margin-left: auto;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-link {
+        padding: 10px;
+        transition: .5s all;
+    }
+
+    .nav-item {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+
+    .nav-link:hover {
+        color: #fff !important;
+        border-radius: 3px !important;
+        background-color: #1F3566 !important;
+    }
+
+    .nav-link:hover .nav-item {
+        color: #fff !important;
+    }
+
+    .dropdown-content {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .nav-contacts {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-contact {
+        width: 100%;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 0 0 0 40px;
+    }
+
+    .footer-company {
+        width: 100%;
+    }
+
+    .footer-menu {
+        width: 100%;
+    }
+
+    .footer-copyrights {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-menu {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 340px) {
+    nav {
+        padding: 25px 10px 20px 10px;
+    }
+
+    .footer-content {
+        margin: 110px 10px 70px 10px;
+        padding: 0 0 0 20px;
+    }
+
+    .logo img {
+        max-width: 180px;
+    }
+}
