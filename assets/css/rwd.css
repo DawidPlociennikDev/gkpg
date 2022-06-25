@@ -9,8 +9,12 @@
         top: -114px;
     }
 
-    .owl-nav {
-        right: -42.5px !important;
+    .arrow-right-link {
+        right: -42.5px;
+    }
+
+    .white-bar-vertical {
+        width: 8%;
     }
 }
 
@@ -69,13 +73,24 @@
         height: 750px;
     }
 
-    .owl-nav {
-        right: -15px !important;
+    .arrow-right-link {
+        right: -15px;
+        height: 65px;
+        width: 65px;
     }
 
-    .owl-next {
-        height: 65px !important;
-        width: 65px !important;
+    .right-blue-square-1 {
+        margin-top: 40px;
+    }
+
+    .right-blue-square-1,
+    .right-blue-square-2 {
+        height: calc(100% + 20px);
+        right: -20px;
+    }
+
+    .team {
+        padding-bottom: 20px;
     }
 }
 
@@ -91,6 +106,17 @@
 
     .nav-separate {
         display: none;
+    }
+
+    .team {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .team-item {
+        width: 33.3333%;
     }
 }
 
@@ -251,6 +277,18 @@
     .news-big {
         min-height: 600px;
     }
+
+    .team-item {
+        width: 50%;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        padding: 90px 60px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -316,6 +354,37 @@
     .news-title {
         font-size: 26px;
         line-height: 32px;
+    }
+
+    .team-item {
+        width: 100%;
+    }
+
+    .right-blue-square-1,
+    .right-blue-square-2 {
+        width: 180px;
+    }
+
+    .contact-form {
+        padding: 30px 30px;
+    }
+
+    .contact-title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .contact-icons,
+    .input-group,
+    .rodo-submit {
+        flex-wrap: wrap;
+    }
+
+    .checkbox-input {
+        text-align: center;
     }
 }
 
@@ -384,5 +453,14 @@
     .news-title {
         font-size: 22px;
         line-height: 28px;
+    }
+
+    .right-blue-square-1,
+    .right-blue-square-2 {
+        width: 120px;
+    }
+
+    .contact-form {
+        padding: 20px 20px 20px 0;
     }
 }
