@@ -2,7 +2,7 @@ function toogleMenu() {
     document.getElementById("menu").classList.toggle("show-menu");
 }
 
-$('.owl-carousel').owlCarousel({
+$('#slider-carousel').owlCarousel({
     loop: true,
     nav: false,
     dotsContainer: '#carousel-custom-dots',
@@ -52,3 +52,24 @@ function getCounter(obj, i, maxNumber) {
         }
     }, 50)
 }
+
+$('#team-carousel').owlCarousel({
+    loop: true,
+    nav: true,
+    navText: ["","<img src='./assets/img/right-arrow.svg'>"],
+    dots: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 4
+        },
+        1400: {
+            items: 5
+        }
+    }
+})

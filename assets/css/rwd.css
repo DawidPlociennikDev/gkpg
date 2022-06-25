@@ -8,6 +8,10 @@
         width: 700px;
         top: -114px;
     }
+
+    .owl-nav {
+        right: -42.5px !important;
+    }
 }
 
 @media (max-width: 1400px) {
@@ -63,6 +67,15 @@
 
     .category-bg {
         height: 750px;
+    }
+
+    .owl-nav {
+        right: -15px !important;
+    }
+
+    .owl-next {
+        height: 65px !important;
+        width: 65px !important;
     }
 }
 
@@ -367,6 +380,7 @@
     .news-content {
         padding: 22px 22px;
     }
+
     .news-title {
         font-size: 22px;
         line-height: 28px;
